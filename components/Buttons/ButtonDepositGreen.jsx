@@ -1,6 +1,6 @@
 import * as React from "react";
 import {Text, View} from "react-native";
-import styles from "@/styles/GlobalStyles";
+import styles from "@/styles/InputButtons";
 
 const BtnDepositarConductor = () => {
     return (

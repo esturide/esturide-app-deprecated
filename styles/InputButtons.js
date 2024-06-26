@@ -1,16 +1,6 @@
 import {StyleSheet} from "react-native";
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: "center", // Centra los elementos verticalmente
-        alignItems: "center", // Centra los elementos horizontalmente
-        backgroundColor: "#f7f7f7",
-    },
-    title: {
-        fontSize: 20,
-        fontWeight: "bold",
-    },
     btnSubmit: {
         borderTopLeftRadius: 12,
         borderBottomRightRadius: 12,
@@ -26,14 +16,15 @@ const styles = StyleSheet.create({
         paddingVertical: 7,
         marginVertical: 5,
     },
-    btnSubmitTexto: {
+    btnSubmitText: {
         fontSize: 16,
         fontWeight: "700",
         fontFamily: "Inter-Bold",
         color: "#fff",
         textAlign: "left",
     },
-    btnDepositarVerde: {
+
+    btnDepositGreen: {
         borderRadius: 9,
         backgroundColor: "#2f7265",
         width: 130,
@@ -46,14 +37,15 @@ const styles = StyleSheet.create({
         paddingVertical: 3,
         marginVertical: 5,
     },
-    btnDepositarVerdeTexto: {
+    btnDepositGreenText: {
         fontSize: 19,
         fontWeight: "700",
         fontFamily: "Inter-Bold",
         color: "#fff",
         textAlign: "left",
     },
-    btnDepositarAzul: {
+
+    btnDepositBlue: {
         borderRadius: 9,
         backgroundColor: "#4b61b9",
         width: 166,
@@ -66,21 +58,15 @@ const styles = StyleSheet.create({
         paddingVertical: 3,
         marginVertical: 5,
     },
-    btnDepositarAzulTexto: {
+    btnDepositBlueText: {
         fontSize: 19,
         fontWeight: "700",
         fontFamily: "Inter-Bold",
         color: "#fff",
         textAlign: "left",
     },
-    btnRetirarTexto: {
-        fontSize: 19,
-        fontWeight: "700",
-        fontFamily: "Inter-Bold",
-        color: "#fff",
-        textAlign: "left",
-    },
-    btnRetirar: {
+
+    btnWithdraw: {
         borderRadius: 9,
         backgroundColor: "#2f7265",
         width: 130,
@@ -91,6 +77,13 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         paddingHorizontal: 20,
         paddingVertical: 3,
+    },
+    btnWithdrawText: {
+        fontSize: 19,
+        fontWeight: "700",
+        fontFamily: "Inter-Bold",
+        color: "#fff",
+        textAlign: "left",
     },
 });
 
