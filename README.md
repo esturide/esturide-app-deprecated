@@ -1,6 +1,15 @@
-# Welcome to your Expo app 👋
+# Esturide (client-app)
+![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+[![Build with EAS](https://img.shields.io/badge/Build-3275E7.svg?style=for-the-badge&logo=EXPO&labelColor=000&logoColor=FFF)](https://docs.expo.dev/build/introduction/)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This repository houses the source code for the client application, which interacts with the server to provide a complete experience to the end user. The application is developed using the latest technologies and frameworks, ensuring optimal performance, intuitive interface and smooth user experience.
+
+## Platforms
+
+[![supports iOS](https://img.shields.io/badge/iOS-999999.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff)](https://github.com/expo/expo)
+[![supports Android](https://img.shields.io/badge/Android-A4C639.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff)](https://github.com/expo/expo)
+[![supports web](https://img.shields.io/badge/Web-4285F4.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff)](https://github.com/expo/expo)
 
 ## Get started
 
@@ -25,16 +34,13 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
-
-When you're ready, run:
+## Get started for testing
+[StoryBook](https://storybook.js.org/) is used for development testing, you can run tests with the following command:
 
 ```bash
-npm run reset-project
+npm run storybook
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
+   
 ## Learn more
 
 To learn more about developing your project with Expo, look at the following resources:
