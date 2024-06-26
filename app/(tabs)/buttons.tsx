@@ -1,13 +1,21 @@
-import React, {useState} from "react";
-import {styles} from '@/styles/CounterScreenStyle'
-import {ThemedText} from "@/components/ThemedText";
-import {ThemedView} from "@/components/ThemedView";
+import {Text, View} from "react-native";
+import styles from "@/styles/GlobalStyles";
+import Button from "@/components/Buttons/ButtonExample";
+import ButtonSubmit from "@/components/Buttons/ButtonSubmit";
+import BtnDepositarVerde from "@/components/Buttons/ButtonDepositGreen";
+import ButtonWithdraw from "@/components/Buttons/ButtonWithdraw";
+import ButtonDepositBlue from "@/components/Buttons/ButtonDepositBlue";
+import React from "react";
 
-export default function CounterScreen() {
+export default function demo() {
   return (
-    <ThemedView style={styles.container}>
-      <ThemedText type="title">Buttons screen</ThemedText>
-    </ThemedView>
-  )
+    <View style={styles.container}>
+      <Text style={styles.title}>Componentes</Text>
+      <Button title="Press me!" onPress={() => alert("Button Pressed!")}/>
+      <ButtonSubmit title="Label"/>
+      <BtnDepositarVerde/>
+      <ButtonWithdraw/>
+      <ButtonDepositBlue/>
+    </View>
+  );
 }
-
